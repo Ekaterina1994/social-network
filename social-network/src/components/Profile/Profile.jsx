@@ -1,9 +1,10 @@
 import React from "react";
+import MyPosts from "./MyPosts/MyPosts";
 import styles from "./Profile.module.scss";
 
 const Profile = () => {
   return (
-    <div className={styles.content}>
+    <div>
       <div>
         <img
           className={styles.profile_img}
@@ -18,12 +19,7 @@ const Profile = () => {
           alt="person-img"
         />
       </div>
-      <div>
-        My posts
-        <div>New post</div>
-        <div>Post 1</div>
-        <div>Post 2</div>
-      </div>
+      <MyPosts />
     </div>
   );
 };
