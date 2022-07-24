@@ -4,7 +4,7 @@ import styles from "./Music.module.scss";
 const Music = (props) => {
   return (
     <div>
-			Dialogs
+			Music
     </div>
   );
 };
